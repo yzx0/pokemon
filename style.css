@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+*::before{box-sizing: border-box;}
+*::after{box-sizing: border-box;}
+*{transition: all 0.3s;}
+body{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+.code{
+  flex: 1;
+  height: 50%;
+  overflow: hidden;
+}
+.wrapper{
+  flex: 1;
+  height: 50%;
+  background-color: #ff5757;
+}
+
+.btnWrapper{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: #fff;
+}
+.btnWrapper > button{
+  margin: 10px;
+}
+
+.btnWrapper > button:focus{
+  outline: none;
+}
